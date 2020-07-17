@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ed814f373.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio 1</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <h1>Jennie Buitrago</h1>
+          <p>Desarrollador Front-end</p>
+        </div>
+        <form class="" action="">
+          <input type="text" class="barra-busqueda" id= "barra-busqueda" placeholder="buscar">
+        </form>
+        <div class="categorias" id="categorias">
+          <a href="#" class="activo">Todos</a>
+          <a href="#">Conejos</a>
+          <a href="#">Perros</a>
+          <a href="#">Gatos</a>
+          <a href="#">Caballos</a>
+        </div>
+      </header>
+      <section class="grid" id="grid">
+        <div class="item" data-categoria="conejos"
+        data-etiquetas="1 conejos conejitos roedores rabbit joven chiquito blanco"
+        data-descripcion="1-Conejo blanco joven">
+          <div class="item-contenido">
+            <img src="img/conejo1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="conejos"
+        data-etiquetas="2 conejos conejitos roedores rabbit adulto grande gris gordo pequeño"
+        data-descripcion="2-Conejo blanco y gris adulto y gordo">
+          <div class="item-contenido">
+            <img src="img/conejo2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="conejos"
+        data-etiquetas="3 conejos conejitos roedores rabbit adulto pequeño chiquito marron amarillo"
+        data-descripcion="3-Conejito amarillo pequeño">
+          <div class="item-contenido">
+            <img src="img/conejo3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="gatos"
+        data-etiquetas="4 gatos gato gatito joven blanco heterocromia adulto mina"
+        data-descripcion="4-Gato blanco con ojos de colores">
+          <div class="item-contenido">
+            <img src="img/gato1.png" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="gatos"
+        data-etiquetas="5 gatos gato gatito joven blanco heterocromia adulto mina"
+        data-descripcion="5-Gato blanco con ojos de colores">
+          <div class="item-contenido">
+            <img src="img/gato2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="gatos"
+        data-etiquetas="6 gatos gato gatito joven blanco adulto mina gordo dormido durmiendo"
+        data-descripcion="6-Gato blanco dormido">
+          <div class="item-contenido">
+            <img src="img/gato3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="perros"
+        data-etiquetas="8 perro perros perrito joven golden retriever dorado cachorro"
+        data-descripcion="8-Pequeño golden retriever">
+          <div class="item-contenido">
+            <img src="img/perro2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="perros"
+        data-etiquetas="7 perro perros perrito joven negro doberman pinscher chihuahua cachorro"
+        data-descripcion="7-Pequeño doberman pinscher">
+          <div class="item-contenido">
+            <img src="img/perro1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="item" data-categoria="caballos"
+        data-etiquetas="9 caballo caballos negro"
+        data-descripcion="9-Caballo negro">
+          <div class="item-contenido">
+            <img src="img/caballos1.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup">x</button>
+          <img src="" alt="">
+        </div>
+        <p class="descripcion"></p>
+      </section>
+    </div>
+
+    <footer class="contenedor">
+      <div class="redes-sociales">
+        <div class="contenedor-icono">
+          <a href="http://www.instagram.com/jenniecbm" target="_blank" class="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="contenedor-icono">
+          <a href="http://www.github.com/JennieCBM" target="_blank" class"github">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="creado-por">
+        <p>Sitio Diseñado por Jennie Buitrago 2020.</p>
+
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
